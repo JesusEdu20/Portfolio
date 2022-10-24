@@ -31,7 +31,7 @@ function  Resize (props){
             window.addEventListener("load", showSize)
         }
         
-    },[element])
+    })
 
     return(
 

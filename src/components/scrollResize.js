@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 
 function  Resize (props){
    
-    const [element, setElement]=useState(props.desktop);
+    const [element, setElement]=useState();
     
     let showSize=()=>{
         
@@ -28,6 +28,7 @@ function  Resize (props){
 
         return()=>{
             window.removeEventListener("resize", showSize)
+            window.addEventListener("load", showSize)
         }
         
     })

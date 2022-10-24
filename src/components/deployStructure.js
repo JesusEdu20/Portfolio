@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./deployStructure.scss";
-import { useRef, useEffect } from "react";
+//import { useRef, useEffect } from "react";
 
 function DeployLayout(props) {
 
@@ -41,16 +41,16 @@ function DeployLayout(props) {
 
     }
 
-    const div=useRef()
+    /*const div=useRef()
 
     useEffect(()=>{
         console.log(div.current.offsetWidth);
-    },[])
+    },[])*/
 
 
   return (
 
-        <div className={`card-container ${props.sectionClass}`} style={styles}  ref={div}>
+        <div className={`card-container ${props.sectionClass}`} style={styles}>
             
            {props.children}
            {deploy(props.btnValues)}

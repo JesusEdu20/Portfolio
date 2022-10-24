@@ -5,6 +5,10 @@ import BtnContacts from "./btnContact";
 import Presentation from "./presentation";
 import ButtonToTalk from './buttonToTalkWap.js';
 
+import Resize from "./scrollResize";
+import MenuDesktop from "./menuDesktop";
+
+
 
 
 function Section (props){
@@ -19,16 +23,48 @@ function Section (props){
         //on the website
     
         
+    const Values={
+
+        home:{
+            li:"Home",
+            url:"#principal-section",
+        },
+
+        
+        aboutMe:{
+            li:"About Me",
+            url:"#section-about-me",
+            
+        },
+
+        PortFolio:{
+            li:"Portfolio",
+            url:"#section-portfolio",
+            
+        },
+
+        Contacts:{
+            li:"Contacts",
+            url:"#section-footer",
+            
+        }
+
+    }
+
     
+    //menu responsive
+    const desktop= <MenuDesktop sectionClass="menu-desktop" Values={Values} gap="40px"></MenuDesktop>
+    const mobile= <BtnContacts btnClass="icons-container" btnValues={btnValues}/>
 
 
     return(
         
-        <section className={props.sectionClass}>
+        <section className={props.sectionClass} id="principal-section">
 
             <nav>
-                <BtnContacts btnClass="icons-container" btnValues={btnValues}/>
-                
+            <Resize size={700} desktop={desktop} mobile={mobile}>
+            </Resize>
+
             </nav>
 
             <Presentation classPresentation="presentation-container" name="Jesus castillo" description="Front-end developer" saludo="Hello" emoji="&#128406;">

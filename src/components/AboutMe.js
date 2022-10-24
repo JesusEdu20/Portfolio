@@ -13,7 +13,7 @@ function AboutMe (props){
     
 
     return(
-        <section className={props.sectionClass}>
+        <section className={props.sectionClass} id="section-about-me">
 
             <div className="photo-profile-container">
                 <span className="tag-profile-photo"></span>

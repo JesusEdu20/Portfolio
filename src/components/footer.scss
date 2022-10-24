@@ -72,6 +72,11 @@
     .contacts-footer{
        
         background-color: #4624857c;
+        .icons-container{
+            display: flex;
+            gap: 20px;
+        }
+        
         
     }
 }

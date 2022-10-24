@@ -74,7 +74,7 @@ function PortFolio (props){
     
 
     return(
-        <section className={props.sectionClass}>
+        <section className={props.sectionClass} id="section-portfolio">
             <div className="skills-container">
                 <h1 className="tag-title">skills 	
                  &#128187;</h1>

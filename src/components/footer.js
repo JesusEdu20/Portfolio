@@ -14,14 +14,31 @@ function Footer(props) {
 
             btnGit:{
                
-                btnUrl:"",
+                btnUrl:"https://github.com/JesusEdu20/Portfolio",
                 classBtn:"icon-github"
             },
+
+            btnTelegram:{
+               
+                btnUrl:"https://msng.link/o/?@jesusedu20=tg",
+                classBtn:"icon-telegram"
+            },
+            btnTwitter:{
+               
+                btnUrl:"https://twitter.com/jesusca59743058",
+                classBtn:"icon-twitter"
+            },
+            btnInstagram:{
+               
+                btnUrl:"https://www.instagram.com/jesusedu20/",
+                classBtn:"icon-instagram"
+            },
+
     }
 
 
   return (
-    <div className={props.sectionClass}>
+    <div className={props.sectionClass} id="section-footer">
 
 
         <div className='section-container'>

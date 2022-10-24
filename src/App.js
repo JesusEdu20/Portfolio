@@ -6,7 +6,9 @@ import AboutMe from './components/AboutMe';
 import PortFolio from './components/portFolio';
 import Footer from './components/footer';
 import DeployLayout from "./components/deployStructure"
+
 //
+//import Resize from "./components/scrollResize.js"
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
 
        key:1,
        header:<p>University</p>,
-       section:<p>actually i'm studying 
+       section:<p>Actually i'm studying 
        computing in the Technological University Sucre</p>,
        footer:<p></p>,
        
@@ -27,10 +29,12 @@ function App() {
     btnOther:{
       key:2,
       header:<p>Programming School</p>,
-      section:<p>i'm student on Platzi wich is a tech academy from latin america dediacted to teach tecnologies skills</p>,
+      section:<p>I'm student on Platzi wich is a tech academy from latin america dediacted to teach tecnologies skills</p>,
       footer:<a href='https://www.w3schools.com/tags/att_a_rel.asp' rel='certifications'>certifications</a>,
   },
 }
+
+
   
   return (
     <div className="App">
@@ -40,7 +44,6 @@ function App() {
       <PortFolio sectionClass="section-portfolio"/>
       <Footer sectionClass="section-footer"> 
         <DeployLayout sectionClass="testDeploy" btnValues={btnValues}>
-
         </DeployLayout>
       </Footer>
       

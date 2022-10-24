@@ -14,7 +14,7 @@ function  DemoCarousel (props){
 
         <Carousel autoPlay={true} infiniteLoop={true} width="100%" showThumbs={false}>
 
-        <a href='https://dynamic-zabaione-429ba8.netlify.app/' target="_blank" rel='project-notes-js'> 
+        <a href='https://dynamic-zabaione-429ba8.netlify.app/' target="_blank" rel="noreferrer"> 
             <div className={props.cardClass}>
             
                 <header className='card-header'>
@@ -34,7 +34,7 @@ function  DemoCarousel (props){
 
        
         
-        <a href='https://reactcalculator29.netlify.app/' target="_blank" rel="project-calculator"> 
+        <a href='https://reactcalculator29.netlify.app/' target="_blank" rel="noreferrer"> 
             <div className={props.cardClass}>
 
          
@@ -55,7 +55,7 @@ function  DemoCarousel (props){
         </a>
 
 
-        <a href='https://eclectic-profiterole-7d13bb.netlify.app/' target="_blank" rel="project-the-computers"> 
+        <a href='https://eclectic-profiterole-7d13bb.netlify.app/' target="_blank" rel="noreferrer"> 
             <div className={props.cardClass}>
             
             <header className='card-header'>

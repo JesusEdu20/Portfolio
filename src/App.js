@@ -16,14 +16,17 @@ function App() {
        
 
     btnGit:{
-       
+      
+       key:1,
        header:<p>University</p>,
        section:<p>actually i'm studying 
        computing in the Technological University Sucre</p>,
        footer:<p></p>,
+       
     },
 
     btnOther:{
+      key:2,
       header:<p>Programming School</p>,
       section:<p>i'm student on Platzi wich is a tech academy from latin america dediacted to teach tecnologies skills</p>,
       footer:<a href=''>certifications</a>,
@@ -38,7 +41,7 @@ function App() {
       <PortFolio sectionClass="section-portfolio"/>
       <Footer sectionClass="section-footer"> 
         <DeployLayout sectionClass="testDeploy" btnValues={btnValues}>
-        
+
         </DeployLayout>
       </Footer>
       

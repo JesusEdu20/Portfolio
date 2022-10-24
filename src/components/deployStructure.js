@@ -29,7 +29,7 @@ function DeployLayout(props) {
     const deploy=(btnValues)=>{
 
         let contactsDeployed= Object.values(btnValues).map(value=>
-        <div href={value.btnUrl} key={value.classBtn}>
+        <div href={value.btnUrl} key={value.key}>
             <div style={cardStyles}>
                 <div className="header">{value.header}</div>
                 <section className="section">{value.section}</section>

@@ -1,6 +1,5 @@
 import React from "react";
 
-import BtnContacts from "./btnContact";
 import Presentation from "./presentation";
 import "./AboutMe.scss"
 

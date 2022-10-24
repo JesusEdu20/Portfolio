@@ -5,7 +5,7 @@ import ButtonToTalk from './buttonToTalkWap';
 import BtnContactss from './btnContact';
 
 //
-import Presentation from './presentation';
+
 
 function Footer(props) {
 

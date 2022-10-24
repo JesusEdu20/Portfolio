@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import "./portFolio.scss"
 import DemoCarousel from "./carousel"
 import BtnContacts from "./btnContact";

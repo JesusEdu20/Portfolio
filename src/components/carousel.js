@@ -6,20 +6,15 @@ import { Carousel } from 'react-responsive-carousel';
 
 function  DemoCarousel (props){
 
-      const styleImg={
-       display:"flex"
-      }
+      
 
-      const imgContainer={
-        
-        height:"200px"
-      }
+      
 
     return(
 
         <Carousel autoPlay={true} infiniteLoop={true} width="100%" showThumbs={false}>
 
-        <a href='https://dynamic-zabaione-429ba8.netlify.app/' target="_blank"> 
+        <a href='https://dynamic-zabaione-429ba8.netlify.app/' target="_blank" rel='project-notes-js'> 
             <div className={props.cardClass}>
             
                 <header className='card-header'>
@@ -39,7 +34,7 @@ function  DemoCarousel (props){
 
        
         
-        <a href='https://reactcalculator29.netlify.app/' target="_blank"> 
+        <a href='https://reactcalculator29.netlify.app/' target="_blank" rel="project-calculator"> 
             <div className={props.cardClass}>
 
          
@@ -60,7 +55,7 @@ function  DemoCarousel (props){
         </a>
 
 
-        <a href='https://eclectic-profiterole-7d13bb.netlify.app/' target="_blank"> 
+        <a href='https://eclectic-profiterole-7d13bb.netlify.app/' target="_blank" rel="project-the-computers"> 
             <div className={props.cardClass}>
             
             <header className='card-header'>

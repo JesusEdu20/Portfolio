@@ -11,12 +11,11 @@ import DeployLayout from "./components/deployStructure"
 
 function App() {
 
-
   const btnValues={
        
 
     btnGit:{
-      
+
        key:1,
        header:<p>University</p>,
        section:<p>actually i'm studying 
@@ -29,7 +28,7 @@ function App() {
       key:2,
       header:<p>Programming School</p>,
       section:<p>i'm student on Platzi wich is a tech academy from latin america dediacted to teach tecnologies skills</p>,
-      footer:<a href=''>certifications</a>,
+      footer:<a href='https://www.w3schools.com/tags/att_a_rel.asp' rel='certifications'>certifications</a>,
   },
 }
   

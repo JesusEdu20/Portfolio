@@ -16,8 +16,7 @@
         
         font-size: 1.7rem;
         font-family: $primary-font;
-        position: sticky;
-        top: 0;
+       
         
         
         
@@ -27,7 +26,7 @@
             padding: 14px;
            
             margin: 0;
-            
+
             border-radius: 40px 0  0 40px;
             font-weight: 500;
            
@@ -46,14 +45,15 @@
 
  //media queries section 750px
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
 
   
     nav{
       width: 80%;
       background-color:#1a1527;
       border-radius: 8px;
-      position: static;
+      position: sticky;
+      top: 0;
         
         
 

@@ -1,0 +1,32 @@
+.section-presentation{
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+  
+
+    nav{
+        width: 100%;
+        height: auto;
+    }
+   
+}
+
+
+// media queries section 750px
+
+@media only screen and (min-width: 768px) {
+
+  
+    nav{
+      width: 80%;
+      background-color:#1a1527;
+      border-radius: 8px;
+     
+        
+
+    }
+}
+
+    
+
+

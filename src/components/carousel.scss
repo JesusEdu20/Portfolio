@@ -1,0 +1,40 @@
+.card{
+
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid  #7B4AE2;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+    
+
+    .card-header{//part top of the card
+
+        .tag-title{
+            
+        }
+    }   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-section{
+    
+
+    .tag-paragraph{
+        text-align: unset;
+        font-size: 1.7rem;
+        line-height: 1.6;
+    }
+}

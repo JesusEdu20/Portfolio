@@ -1,0 +1,60 @@
+.icons-container{
+
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    a{
+        span{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+            
+        }
+    }
+}
+
+.icon-github{
+
+    background-image: url("../Assets/githubBlanco.png");
+}
+
+.icon-git{
+    background-image: url("../Assets/skills/git.png");
+}
+
+ 
+
+.icon-es6{
+    background-image: url("../Assets/skills/es6.png");
+}
+
+.icon-sass{
+    background-image: url("../Assets/skills/SASSp.png");
+}
+
+
+.icon-js{
+    background-image: url("../Assets/skills/JSp.png");
+}
+
+.icon-html{
+    background-image: url("../Assets/skills/HTMLp.png");
+}
+
+.icon-css{
+    background-image: url("../Assets/skills/CSSp.png");
+}
+
+.icon-react{
+    background-image: url("../Assets/skills/REACTp.png");
+}
+
+

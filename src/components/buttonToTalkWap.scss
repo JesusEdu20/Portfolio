@@ -1,0 +1,35 @@
+.btn-wap-container{
+    width: 178px;
+    height: 50px;
+
+   
+
+    a{
+        font-size: 1.4rem;
+        border: 1px solid #7B4AE2;
+        border-radius: 5px;
+        padding: 2px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        span{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+   
+}
+
+
+.icon-whatsapp{
+    background-image: url("../Assets/logoWhatsAppGris.png");
+}

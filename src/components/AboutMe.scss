@@ -1,0 +1,71 @@
+@import "_variables";
+
+.section-about-me{
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: $primary-font;
+    font-size: 1.7rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, (minmax(200px, 1fr)));
+    grid-template-rows: max-content;
+    justify-content: center;
+    align-content: center;
+    
+  
+
+    .photo-profile-container{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .tag-profile-photo{
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            background-image: url("../Assets/profilePhoto.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%
+        }
+    }
+}
+
+//styles of the component presentation
+.about-me-container{
+    
+    .tag-saludo{
+        width: 122px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #38275e;
+        color: #7B4AE2;
+        border-radius: 4px;
+    }
+
+
+    .title-container{
+        .tag-title{}
+        .tag-description{
+            text-align: justify;
+            line-height: 1.8rem;
+        }
+    }
+
+    
+}
+
+// media queries section
+
+@media only screen and (min-width: 768px) {
+    .section-about-me{
+       padding: 0 80px 0 0;
+    }
+
+    }

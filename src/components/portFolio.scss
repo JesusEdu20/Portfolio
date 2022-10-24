@@ -1,0 +1,76 @@
+@import "_variables";
+
+//skills-section
+
+.section-portfolio{
+   
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: $primary-font;
+
+    .skills-container{
+
+        width: 100%;
+        .tag-title{
+
+            width: 122px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #38275e;
+            color: #7B4AE2;
+            border-radius: 4px;
+        }
+
+        .icons-skills-container{
+            width: 100%;
+            height: 35vh;
+        }
+
+    }
+
+    
+}
+
+
+
+.icons-skills-container{
+
+    width: 100%;
+    margin:  0 0 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    //grid-auto-rows: 100px;
+    justify-items: center;
+    align-items: center;
+    
+    
+
+    span
+    {   
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+
+    
+}
+
+
+
+
+
+
+

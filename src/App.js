@@ -1,25 +1,52 @@
-import logo from './logo.svg';
+
+import React from 'react';
 import './App.css';
+import Section from "./components/section.js";
+import AboutMe from './components/AboutMe';
+import PortFolio from './components/portFolio';
+import Footer from './components/footer';
+import DeployLayout from "./components/deployStructure"
+//
+
 
 function App() {
+
+
+  const btnValues={
+       
+
+    btnGit:{
+       
+       header:<p>University</p>,
+       section:<p>actually i'm studying 
+       computing in the Technological University Sucre</p>,
+       footer:<p></p>,
+    },
+
+    btnOther:{
+      header:<p>Programming School</p>,
+      section:<p>i'm student on Platzi wich is a tech academy from latin america dediacted to teach tecnologies skills</p>,
+      footer:<a href=''>certifications</a>,
+  },
+}
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Section sectionClass="section-presentation"/>
+      <AboutMe sectionClass="section-about-me"/>
+      <PortFolio sectionClass="section-portfolio"/>
+      <Footer sectionClass="section-footer"> 
+        <DeployLayout sectionClass="testDeploy" btnValues={btnValues}>
+        
+        </DeployLayout>
+      </Footer>
+      
+      
+   
+      
     </div>
-  );
+  )
 }
 
 export default App;

@@ -23,7 +23,7 @@ function  Resize (props){
     useEffect(()=>{
         
         window.addEventListener("load", showSize)
-        window.addEventListener("resize", showSize),[element]
+        window.addEventListener("resize", showSize)
        
 
         return()=>{
@@ -31,7 +31,7 @@ function  Resize (props){
             window.addEventListener("load", showSize)
         }
         
-    })
+    },[element])
 
     return(
 

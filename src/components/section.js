@@ -67,7 +67,7 @@ function Section (props){
 
             </nav>
 
-            <Presentation classPresentation="presentation-container" name="Jesus castillo" description="Front-end developer" saludo="Hello" emoji="&#128406;">
+            <Presentation classPresentation="presentation-container" name="Jesus Castillo" description="Front-end developer" saludo="Hello" emoji="&#128406;">
                 <ButtonToTalk buttonClass="btn-wap-container" link="https://wa.me/584264599288?text=hablemos" icon={"icon-whatsapp"}>vamos a conversar</ButtonToTalk>
             </Presentation>
 

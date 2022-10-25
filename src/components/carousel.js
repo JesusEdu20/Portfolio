@@ -22,8 +22,10 @@ function  DemoCarousel (props){
                 </header>
                 <section className='card-section'>
                     <p className='tag-paragraph'>
-                    Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el 
+                    A blog about all the additions from ECMAScript 6
+                    onwards                   
                     </p>
+                    <ul><li>Html</li><li>Sass</li><li>Vanilla js</li></ul>
                 </section>
                 <footer>
                
@@ -44,9 +46,10 @@ function  DemoCarousel (props){
 
             <section className='card-section'>
                 <p className='tag-paragraph'>
-                    Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el 
-                
+                This's a project about a simple calculator,
+                being my first project built with React
                 </p>
+                <ul><li>Html</li><li>Sass</li><li>React</li></ul>
             </section>
             <footer>
                
@@ -63,8 +66,11 @@ function  DemoCarousel (props){
             </header>
             <section className='card-section'>
                 <p className='tag-paragraph'>
-                Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el 
+                A blog about the introduction to    
+                computing, which has a binary translator that I coded
+                to explain how computers communicate with each other
                 </p>
+                
             </section>
             <footer>
                

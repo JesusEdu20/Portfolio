@@ -9,7 +9,7 @@ import "./AboutMe.scss"
 function AboutMe (props){
     
 
-    const description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing "
+    const description="Since i was child I'm a fanatic of the the technology, therefore now i'm on the mission to learn the diferents skills that i need to become an Full-Stack-developer, I'm 20 years old and learning is my principal target"
     
 
     return(
